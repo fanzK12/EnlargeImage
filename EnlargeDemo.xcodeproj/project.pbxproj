@@ -13,6 +13,8 @@
 		1885B7381E768646001BDABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885B7361E768646001BDABF /* Main.storyboard */; };
 		1885B73A1E768646001BDABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1885B7391E768646001BDABF /* Assets.xcassets */; };
 		1885B73D1E768646001BDABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885B73B1E768646001BDABF /* LaunchScreen.storyboard */; };
+		1885B7471E7689F9001BDABF /* FKEnlargeImgTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885B7461E7689F9001BDABF /* FKEnlargeImgTool.m */; };
+		1885B74B1E7690B1001BDABF /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1885B74A1E7690B1001BDABF /* timg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		1885B7391E768646001BDABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1885B73C1E768646001BDABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1885B73E1E768646001BDABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1885B7451E7689F9001BDABF /* FKEnlargeImgTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKEnlargeImgTool.h; sourceTree = "<group>"; };
+		1885B7461E7689F9001BDABF /* FKEnlargeImgTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKEnlargeImgTool.m; sourceTree = "<group>"; };
+		1885B74A1E7690B1001BDABF /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,12 @@
 		1885B72C1E768646001BDABF /* EnlargeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1885B7441E7689DC001BDABF /* Tool */,
 				1885B7301E768646001BDABF /* AppDelegate.h */,
 				1885B7311E768646001BDABF /* AppDelegate.m */,
 				1885B7331E768646001BDABF /* ViewController.h */,
 				1885B7341E768646001BDABF /* ViewController.m */,
+				1885B74A1E7690B1001BDABF /* timg.jpg */,
 				1885B7361E768646001BDABF /* Main.storyboard */,
 				1885B7391E768646001BDABF /* Assets.xcassets */,
 				1885B73B1E768646001BDABF /* LaunchScreen.storyboard */,
@@ -77,6 +84,15 @@
 				1885B72E1E768646001BDABF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1885B7441E7689DC001BDABF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1885B7451E7689F9001BDABF /* FKEnlargeImgTool.h */,
+				1885B7461E7689F9001BDABF /* FKEnlargeImgTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1885B74B1E7690B1001BDABF /* timg.jpg in Resources */,
 				1885B73D1E768646001BDABF /* LaunchScreen.storyboard in Resources */,
 				1885B73A1E768646001BDABF /* Assets.xcassets in Resources */,
 				1885B7381E768646001BDABF /* Main.storyboard in Resources */,
@@ -154,6 +171,7 @@
 				1885B7351E768646001BDABF /* ViewController.m in Sources */,
 				1885B7321E768646001BDABF /* AppDelegate.m in Sources */,
 				1885B72F1E768646001BDABF /* main.m in Sources */,
+				1885B7471E7689F9001BDABF /* FKEnlargeImgTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +330,7 @@
 				1885B7431E768646001BDABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
